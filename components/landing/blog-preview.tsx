@@ -26,11 +26,33 @@ const blogPosts = [
       "Deep dive into building a token launchpad on Solana blockchain. Learn the technical architecture, smart contract patterns, and best practices for launching tokens...",
   },
   {
+    href: "https://x.com/theaanuragg/status/2020209353861820421?s=20",
+    title: "Surviving 731K Requests as a Solo Dev",
+    date: "2026",
+    description:
+      "Around half a million requests slammed the site in a short burst. Bots, scrapers, snipers, the whole crypto circus showed up uninvited As a solo dev juggling everything from Next.js frontend to Solana RPC integrations, Kubernetes orchestration, and even the occasional meme tweet, this was my welcome to production moment. No team, no war room — just me",
+  },
+  {
     href: "https://x.com/theaanuragg/status/1988994680273633635?s=20",
     title: "The Hidden Revenue Drain in Memecoin Launches",
     date: "2025",
     description:
       "Uncover the often-overlooked costs and revenue leaks in memecoin launches. Analyze fee structures, token distribution mechanics, and strategies to maximize returns...",
+  },
+  {
+    href: "https://x.com/theaanuragg/status/1998305604608414153?s=20",
+    title: "We Just Survived a 48-Hour DDoS Attack",
+    date: "2025",
+    description:
+      "For the past four days, our infrastructure has been under constant pressure from a persistent DDoS attack While we eventually stabilized everything, the attacker is still actively attempting to probe our system and bypass our protections.  This post documents what happened, how they got around our rate limiting, what DigitalOcean reported to us, and how we fixed it.",
+  },
+
+  {
+    href: "https://x.com/theaanuragg/status/2007530580582511093?s=20",
+    title: "Wash Trading Exposed: wSOL on Aerodrome",
+    date: "2026",
+    description:
+      "1.86M transactions, with a screenshot showing rapid back-and-forth swaps in the SOL/USDC pool (0xb30540172f1b37d1ee1d109e49f883e935e69219) on Aerodrome. You suspected 99.8% wash-traded volume from three addresses, netting $50-150/hr in AERO per participant vs. just $32K organic.",
   },
   {
     href: "https://x.com/theaanuragg/status/1993732145538585093?s=20",

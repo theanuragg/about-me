@@ -40,7 +40,7 @@ const ExperienceSection = () => {
 
           <div className="mt-1 flex justify-between text-sm font-medium text-neutral-400">
             <p>
-              Founding Engineer
+              Founding Engineer → CTO
               <span className="ml-1.5 w-fit rounded bg-neutral-800 px-1.5 py-0.5 text-xs font-normal text-neutral-200 max-md:hidden">
                 Token Launchpad — First-time builders
               </span>
@@ -54,9 +54,27 @@ const ExperienceSection = () => {
           <div className="mt-1.5 flex items-start text-sm leading-tight text-neutral-500 max-md:mt-3">
             <ChevronRight className="mx-1.5 mt-0.5 h-4 w-4 flex-shrink-0 text-neutral-700" />
             <p className="max-md:max-w-[90%]">
-              Building a token launchpad tailored for first-time founders — built on
-              Meteora with DBC and DAMMv2 integrations, focused on smooth onboarding
-              and token lifecycle tooling.
+              Led end-to-end developement of a solana token launch platform integrated with Meteora DBC and DAMMv2
+              enabling fair launches without custom AMMs or bounding curve- drove $20M+ aggregate trading volume
+              across launched tokens.
+            </p>
+          </div>
+          <div className="mt-1.5 flex items-start text-sm leading-tight text-neutral-500 max-md:mt-3 ">
+            <ChevronRight className=" mx-1.5 mt-0.5 h-4 w-4  flex-shrink-0 text-neutral-700" />
+            <p className=" max-md:max-w-[90%]">
+              Architected full token lifecycle: DBC pool creation, single-sided liquidity bootstrapping, configurable gradution thresholds automated Damm v2 migration, and LP locking - powered dozens of rapid, composable launches with jupiter and trition aggregator suuport
+            </p>
+          </div>
+          <div className="mt-1.5 flex items-start text-sm leading-tight text-neutral-500 max-md:mt-3">
+            <ChevronRight className="mx-1.5 mt-0.5 h-4 w-4 flex flex-shrink-0 text-neutral-700" />
+            <p className="max-md:max:w-[90%]">
+              Implemented production-grade safety features including dynamic fees, multi-layered anti-snipe protections, whale caps, and rate-limiting- ensured fair distribution and reduced predatory acivity during  high-demand phase ( thousand of TPS).
+            </p>
+          </div>
+          <div className="mt-1.5 flex items-start text-sm leading-tight text-neutral-500 max-md:mt-3">
+            <ChevronRight className="mx-1.5 mt-0.5 h-4 w-4 flex flex-shrink-0 text-neutral-700" />
+            <p className=" max-md:max-w-[90%]">
+              Delivered 99.99% uptime and zero-downtime deploys through reliable orchestration (Rust/TS + Meteora SDKs), real-time analytics (TVL/price/sniper tracking), and DevOps foundation (CI/CD, auto-scaling infra, alerting) — ensured platform resilience during peaks and rapid iteration.
             </p>
           </div>
         </div>
@@ -70,12 +88,51 @@ const ExperienceSection = () => {
               rel="noopener noreferrer"
               className="font-display text-xl font-medium tracking-wide text-neutral-200 hover:text-accent-blue hover:underline"
             >
+              SRD Exchange
+            </a>
+          </div>
+          <div className="mt-1 flex justify-between text-sm font-medium text-neutral-400">
+            <p>Contract Developer</p>
+            <div className="flex items-center gap-1 text-xs text-neutral-400">
+              <CalendarDays className="h-3.5 w-3.5" />
+              <span>DEC 2025 – Present</span>
+            </div>
+          </div>
+          <div className="mt-1.5 flex items-start text-sm leading-tight text-neutral-500 max-md:mt-3">
+            <ChevronRight className="mx-1.5 mt-0.5 h-4 w-4 flex flex-shrink-0 text-neutral-700" />
+            <p className=" max-md:max-w-[90%]">
+              Accelerated user onboarding and gasless transactions by integrating Paymaster with Particle Network wallet — enabled seamless, fee-sponsored interactions on the SRD DEX, boosting adoption for non-custodial trades.
+            </p>
+          </div>
+          <div className="mt-1.5 flex items-start text-sm leading-tight text-neutral-500 max-md:mt-3">
+            <ChevronRight className="mx-1.5 mt-0.5 h-4 w-4 flex flex-shrink-0 text-neutral-700" />
+            <p className=" max-md:max-w-[90%]">
+              Owned end-to-end wallet integration for EVM/Solana compatibility, including AA (Account Abstraction) flows and secure key management — reduced friction in cross-chain swaps, improving UX and transaction success rates.
+
+            </p>
+          </div>
+          <div className="mt-1.5 flex items-start text-sm leading-tight text-neutral-500 max-md:mt-3">
+            <ChevronRight className="mx-1.5 mt-0.5 h-4 w-4 flex flex-shrink-0 text-neutral-700" />
+            <p className=" max-md:max-w-[90%]">
+              Delivered production-ready features that enhanced DEX liquidity and security, contributing to platform growth amid high-volume trading environments.
+            </p>
+          </div>
+
+        </div>
+        <div>
+          <div className="flex items-baseline space-x-1">
+            <a
+              href="https://www.telexcoin.earth/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-display text-xl font-medium tracking-wide text-neutral-200 hover:text-accent-blue hover:underline"
+            >
               DeepRoot
             </a>
           </div>
 
           <div className="mt-1 flex justify-between text-sm font-medium text-neutral-400">
-            <p>Frontend Web3 Developer</p>
+            <p>Contract Developer</p>
             <div className="flex items-center gap-1 text-xs text-neutral-400">
               <CalendarDays className="h-3.5 w-3.5" />
               <span>May 2025 – Jun 2025</span>
@@ -85,17 +142,14 @@ const ExperienceSection = () => {
           <div className="mt-1.5 flex items-start text-sm leading-tight text-neutral-500 max-md:mt-3">
             <ChevronRight className="mx-1.5 mt-0.5 h-4 w-4 flex-shrink-0 text-neutral-700" />
             <p className="max-md:max-w-[90%]">
-              Converted 2 Figma designs into responsive, production-ready Web3 sites
-              using Next.js and Tailwind CSS.
+              Delivered 2 polished, responsive Web3 sites from Figma in weeks (Next.js + Tailwind) — elevated UX to production quality, improving onboarding flow and user retention for a live product.
             </p>
           </div>
 
           <div className="mt-1.5 flex items-start text-sm leading-tight text-neutral-500 max-md:mt-3">
             <ChevronRight className="mx-1.5 mt-0.5 h-4 w-4 flex-shrink-0 text-neutral-700" />
             <p className="max-md:max-w-[90%]">
-              Integrated wallet connection with wagmi & rainbowkit for Solana and EVM
-              users; implemented swap/pool UI with token selection, balance fetch and
-              improved UX for transactions.
+              Built seamless Solana/EVM wallet + swap/pool interfaces (wagmi/RainbowKit) with real-time balances and transaction UX — reduced drop-offs and boosted engagement in DeFi interactions
             </p>
           </div>
         </div>
@@ -124,17 +178,14 @@ const ExperienceSection = () => {
           <div className="mt-1.5 flex items-start text-sm leading-tight text-neutral-500 max-md:mt-3">
             <ChevronRight className="mx-1.5 mt-0.5 h-4 w-4 flex-shrink-0 text-neutral-700" />
             <p className="max-md:max-w-[90%]">
-              Developed responsive UI components, implemented dark mode, and optimized
-              loading times for mobile and desktop.
+              Drove platform growth through optimized, responsive UI (components, dark mode, mobile perf) — improved user satisfaction and retention for a scaling community tool.
             </p>
           </div>
 
           <div className="mt-1.5 flex items-start text-sm leading-tight text-neutral-500 max-md:mt-3">
             <ChevronRight className="mx-1.5 mt-0.5 h-4 w-4 flex-shrink-0 text-neutral-700" />
             <p className="max-md:max-w-[90%]">
-              Managed deployments on AWS EC2 & DigitalOcean (Nginx, Route 53, Certbot),
-              set up autoscaling, and drove CI/CD with GitHub Actions for weekly
-              releases.
+              * Owned reliable infra and releases (AWS EC2 + DigitalOcean, autoscaling, Nginx/Certbot, GitHub Actions CI/CD) — enabled consistent weekly deploys with near-zero downtime, accelerating feature velocity from months to days.
             </p>
           </div>
         </div>

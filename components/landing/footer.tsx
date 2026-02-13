@@ -34,14 +34,7 @@ export default function Footer() {
           <p>2025. All rights reserved.</p>
         </div>
       </div>
-      <div className="flex flex-col items-start gap-1.5 text-xs text-neutral-500 md:items-end">
-        <p>
-          Visitors{" "}
-          <span className="font-medium text-neutral-400">
-            #{visitorCount ?? "..."}
-          </span>
-        </p>
-      </div>
+      
     </footer>
   );
 }
