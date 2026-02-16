@@ -44,7 +44,7 @@ const HeroIntroduction = () => {
           </a>
         
           ,{' '}
-          <a href="https://drive.google.com/file/d/1wpYJ8oAaNJGI4psgYqvDF-o7p42wT3Oa/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <a href="https://drive.google.com/file/d/1pO4k4AvtnPCjAuOBA2AiNJTmG9f82v3-/view?usp=sharing" target="_blank" rel="noopener noreferrer">
             <span className="inline-flex cursor-pointer items-center gap-0.5 rounded bg-neutral-800 px-1 py-0.5 text-xs tracking-normal text-neutral-200 transition-colors duration-300 hover:bg-neutral-900">
               Resume
             </span>
